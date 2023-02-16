@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#myCanvas {
+  border: 2px solid rgb(17, 255, 0);
+}
+#gameTitle {
+  color: rgb(17, 255, 0);
+}
+#myScore,
+#topScore {
+  color: rgb(17, 255, 0);
+  font-size: 1.5rem;
+}
+#start {
+  padding: 0.5rem;
+  border-radius: 0.15rem;
+  background-color: #000;
+  border: 2px solid rgb(17, 255, 0);
+  color: rgb(17, 255, 0);
+  display: block;
+}
